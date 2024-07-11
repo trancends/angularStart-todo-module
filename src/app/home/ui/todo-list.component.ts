@@ -17,6 +17,12 @@ import { RouterLink } from '@angular/router';
     </ul>
   `,
   imports: [RouterLink],
+  styles: `
+    ul {
+      padding: 1rem;
+      margin: 0;
+    }
+  `,
 })
 export class TodoListComponent {
   @Input({ required: true }) todos!: Todo[];
