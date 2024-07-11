@@ -12,7 +12,7 @@ import { Todo } from '../../shared/interfaces.todo';
     >
       <input
         type="text"
-        formControlName="todo"
+        formControlName="title"
         placeholder="What needs to be done?"
       />
       <input
